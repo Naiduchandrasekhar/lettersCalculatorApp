@@ -1,0 +1,88 @@
+/* Write your code here. */
+
+.bg-container {
+  background-image: linear-gradient(#1d976c, #93f9b9);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80vh;
+  width: 80vw;
+}
+
+.image {
+  height: 250px;
+  width: 300px;
+}
+
+.heading {
+  color: #ffff;
+  font-size: 32px;
+  font-family: 'Roboto';
+}
+
+.label {
+  color: #ffff;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.textBox {
+  color: #e4e7eb;
+  border: 1px solid #ffffff;
+  padding: 5px;
+  background-color: transparent;
+  outline: none;
+  width: 250px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffff;
+  height: 50px;
+  width: 150px;
+  border-radius: 10px;
+  color: #219a6f;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .calculatorDiv {
+    order: 2;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .imageDiv {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bg-container {
+    min-height: 100vh;
+    min-width: 50vw;
+  }
+}
